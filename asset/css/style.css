@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    margin: 0 auto;
+    max-width: calc(100% - 48px);
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 24.5px;
+    background: #171100;
+}
+
+/* header */
+.header{
+    background: #FFFCF4;
+    position: sticky;
+    top: -28px;
+
+
+}
+.header .menu {
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 8px;
+}
+
+.header .nav ul {
+    display: flex;
+    
+}
+
+.header .nav {
+    margin-left: auto;
+}
+
+.header .nav a {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 8px 21px;
+    position: relative;
+}
+
+.header .nav a:hover,
+.header .nav li.active a {
+    color: #171100;
+    font-size: 1.6rem;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .nav li.active a::after {
+    display: block;
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+    position: absolute;
+    left: 21px;
+    bottom: 6px;
+}
+
+.header .btn__header--action{
+    min-width: 144px;
+    line-height: 50px;
+    margin-left: 49px;
+}
+main{
+    height: 5000px;
+}
